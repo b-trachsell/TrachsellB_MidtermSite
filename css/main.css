@@ -1,0 +1,138 @@
+#siteContainer{
+	width:auto ;
+	background-color: #f3ecde;
+	margin:auto;
+}
+#topBar{
+	width: auto;
+	height:45px;
+	background-color:#3c3a35;
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height:392px;
+	width: auto;
+	background-image: url("../images/heroCrackedOpen.jpg");
+}
+
+#headerLogo{
+	width: 270px;
+	height: 270px;
+	margin:auto; 
+
+}
+
+#headerNav{
+	width: auto;
+	height:70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+.headerButton{
+	font-family: 'Merriweather', serif;
+	font-size: 24pt;
+
+}
+
+#imgCycler{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: auto;
+	background-color:#f3ecde;
+
+}
+
+.imgButtons{
+	border-radius: 5px;
+	margin: 20px 42px;
+	height: 42px;
+	width: 42px;
+	background-color: #ffbd2e;
+}
+
+#newsSection{
+	padding: 25px;
+
+}
+
+#heroImage{
+	height: 430px;
+	background-color: #636363;
+}
+
+#belowHero{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 85px;
+	background-color: #8b8b8b;
+	color: #e0e0e0;
+	padding: 25px;
+
+}
+
+#headlineText{
+	font-size: 48px;
+}
+
+#authorCredit{
+	font-size: 24px;
+	text-align: right;
+}
+
+#articleBody{
+	padding: 25px;
+	width:70%;
+	background-color: #8b8b8b;
+	color:  #343434;
+	font-size: 20px;
+}
+
+#adSideBar{
+	background-color: #343434;
+	height:auto;
+	width: 22%;
+}
+
+#body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 25px ;
+	padding-top: 0px;
+}
+
+#footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 180px;
+	background-color: #343434;
+	padding: 25px
+}
+
+#footerLogo{
+	width: 300px; 
+	background-color: #e0e0e0;
+}
+
+#footerNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:510px;
+	margin:auto 25px;
+}
+
+.footerNavButtons{
+	width:42px;
+	height: 42px;
+	background-color: #8b8b8b;
+
+}
